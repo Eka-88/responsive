@@ -58,11 +58,11 @@
     .fa-bars{
         display: block;
     }
-    .logo{
-       width:50px;
-    }
     .title{
         font-size: 50px;
+    }
+    .logo img{
+        width: 100px;
     }
     /* <header> */
     /* <section2> */
@@ -124,4 +124,49 @@
     .box-text{
         font-size:13px;
     }
+}
+@media (max-width:350px){
+    .header{
+        height: 700px;
+    }
+    .nav-wrapper{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .fa-bars{
+        margin-bottom: 5px;
+    }
+    .logo img{
+        width: 80px;
+    }
+    .title{
+        font-size: 40px;
+    }
+    /* <section2> */
+    .left-box,
+    .right-box{
+        height: 400px;
+    }
+    .right-box img{
+        height: 400px;
+    }
+    .text1{
+        font-size: 25px;
+    }
+    .view{
+        height: 50px;
+        max-width: 150px;
+    }
+    /* <section3> */
+    .title-wrapper{
+        width: 100%;
+    }
+    .icon{
+        height: 70px;
+        width: 70px;
+    }
+    .box{
+        height: 250px;
+    }
+
 }
