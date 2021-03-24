@@ -18,6 +18,7 @@
 	justify-content: space-between;
 	align-items: center;
 	padding-top:60px;
+	position: fixed;
 }
 .nav-ul{
 	display: flex;
@@ -35,7 +36,7 @@
 	text-transform: uppercase;
 }
 .fa-bars{
-	color: #FFFFFF;
+	color:#D9F0FF;
 	font-size: 20px;
 	margin: 0 20px 0 20px;
 	display: none;
@@ -51,7 +52,7 @@
 	color: #FFFFFF;
 	font-size: 100px;
 	font-family: 'Lato';
-	margin-top: 183px;
+	margin-top: 275px;
 	text-align: center;
 }
 /*<end of header>*/
